@@ -7,8 +7,8 @@ for i in range(10):
     print()
 
 m = int(input("Enter a number: "))
-for k in range(m +1):
-    for l in range(m+1):
+for k in range(m ):
+    for l in range(m):
         if (k+l)%2 == 0:
             print("1", end = "  ")
         else:
