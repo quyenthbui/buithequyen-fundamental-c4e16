@@ -2,7 +2,7 @@ items=['T-shirt','sweater']
 print('our items: ',*items, sep=' ')
 
 items.append('jeans')
-+print('our new items: ',*items,sep=' ')
+print('our new items: ',*items,sep=' ')
 
 pos=int(input('what is the position you want to update? '))
 
